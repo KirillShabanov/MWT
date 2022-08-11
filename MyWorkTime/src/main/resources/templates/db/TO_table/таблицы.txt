@@ -1,0 +1,45 @@
+.open maintenancePrice
+PRAGMA FOREIGN_KEYS = on;
+.mode box
+
+CREATE TABLE regulations (id INTEGER PRIMARY KEY AUTOINCREMENT,
+							number_TO VARCHAR(50) NOT NULL,
+							FK_TO INTEGER NOT NULL,
+							FOREIGN KEY (FK_TO) REFERENCES regulations (id));
+							
+
+CREATE TABLE auto (id INTEGER PRIMARY KEY AUTOINCREMENT,
+					automobile VARCHAR(50) NOT NULL,
+					modification VARCHAR(50) NOT NULL,
+					FK_auto INTEGER NOT NULL,
+					FOREIGN KEY (FK_auto) REFERENCES auto (id));
+
+
+CREATE TABLE normalization (id INTEGER PRIMARY KEY AUTOINCREMENT,
+							jobCode INTEGER NOT NULL,
+							jobName VARCHAR(50) NOT NULL,
+							jobTime DOUBLE NOT NULL,
+							priceTime DOUBLE NOT NULL,
+							FK_normalization INTEGER NOT NULL,
+							FOREIGN KEY (FK_normalization) REFERENCES normalization (id));
+
+
+CREATE TABLE part (id INTEGER PRIMARY KEY AUTOINCREMENT,
+					partNumber VARCHAR(50) NOT NULL,
+					partName VARCHAR(50) NOT NULL,
+					partPrice DOUBLE NOT NULL,
+					FK_part INTEGER NOT NULL,
+					FOREIGN KEY (FK_part) REFERENCES part (id));
+					
+					
+					
+CREATE TABLE to_regulations (id INTEGER PRIMARY KEY AUTOINCREMENT,
+							FK_numTO INTEGER NOT NULL,
+							FK_autoTO INTEGER NOT NULL,
+							FK_partNumberTO INTEGER NOT NULL,
+							amount DOUBLE NOT NULL,
+							FK_jobCodeTO INTEGER DEFAUL (0),
+							FOREIGN KEY (FK_numTO) REFERENCES regulations (id),
+							FOREIGN KEY (FK_autoTO) REFERENCES auto (id),
+							FOREIGN KEY (FK_partNumberTO) REFERENCES part (id)
+							FOREIGN KEY (FK_jobCodeTO) REFERENCES normalization (id));
