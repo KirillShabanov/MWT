@@ -1,9 +1,12 @@
 package com.home.MyWorkTime.service;
 
+import com.home.MyWorkTime.entity.SelectForTOModel;
 import com.home.MyWorkTime.repository.SelectForTORepository;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 
 @Service
@@ -14,5 +17,7 @@ public class SelectForTOService {
     private SelectForTORepository selectForTORepository;
 
 
-
+    public List<SelectForTOModel> findTOFromKey(Long selectTO, Long selectAuto) {
+        return selectForTORepository.findTOFromKey(selectTO, selectAuto);
+    }
 }

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 7,
+    "name": "test",
+    "surname": "test",
+    "login": "test7",
+    "password": "test",
+    "level_access": 7
+  },
+  {
+    "id": 8,
+    "name": "test",
+    "surname": "test",
+    "login": "test8",
+    "password": "test",
+    "level_access": 8
+  }
+]

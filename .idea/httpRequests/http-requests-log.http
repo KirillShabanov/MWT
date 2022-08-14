@@ -1,0 +1,50 @@
+POST http://localhost:8080/clients/save
+
+<> 2022-08-08T181547.404.json
+
+###
+
+GET http://localhost:8080/users/findById
+
+<> 2022-08-08T181531.400.json
+
+###
+
+GET http://localhost:8080/auto/findByModification
+
+<> 2022-08-08T181351.404.json
+
+###
+
+GET http://localhost:8080/users/findAll
+
+<> 2022-08-08T181335.200.json
+
+###
+
+GET http://localhost:8080/users/findById=8
+
+<> 2022-08-08T181325.404.json
+
+###
+
+GET http://localhost:8080/users/findByLogin=test
+
+<> 2022-08-08T181300.404.json
+
+###
+
+GET http://localhost:8080/users/findByLogin=test8
+
+<> 2022-08-08T181238.404.json
+
+###
+
+GET http://localhost:8080/users/findAll
+
+###
+
+GET http://localhost:8080/auto/findByModification
+
+###
+

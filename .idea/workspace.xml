@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e50f7fa-f414-433e-a88e-a58606953188" name="Changes" comment="14.08">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/NormalizForTOModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/PartForTOModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/controller/SelectForTOController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/controller/SelectForTOController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/RegulForTOModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/RegulForTOModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/SelectForTORepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/SelectForTORepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/service/SelectForTOService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/service/SelectForTOService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/js/btnSearchShowTO.js" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/js/btnSearchShowTO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/Запрос к картам.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/Запрос к картам.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/Наполнение таблиц.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/Наполнение таблиц.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/таблицы.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/таблицы.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="4d0cc332-17ec-4b39-95d6-6fd664d04a63" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
+  <component name="ProjectId" id="28QgcknIpdgJNQ8hIqUEmviLW5t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
+    <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Обучение Кристина/product" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.37157106" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.home.MyWorkTime.service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.home.MyWorkTime" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.home.MyWorkTime.repository" />
+      <recent name="com.home.MyWorkTime.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MyWorkTimeApplication">
+    <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="list_auto.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyWorkTime/templates/db/TO_table/list_auto.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="MyWorkTimeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="MyWorkTime" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.home.MyWorkTime.MyWorkTimeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.list_auto.html" />
+        <item itemvalue="HTTP Request.generated-requests#1" />
+        <item itemvalue="HTTP Request.generated-requests#4" />
+        <item itemvalue="HTTP Request.generated-requests#3" />
+        <item itemvalue="HTTP Request.generated-requests#2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\User\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e50f7fa-f414-433e-a88e-a58606953188" name="Changes" comment="" />
+      <created>1651154307564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651154307564</updated>
+      <workItem from="1651154309044" duration="14598000" />
+      <workItem from="1651175484848" duration="3563000" />
+      <workItem from="1651179198779" duration="578000" />
+      <workItem from="1652117621674" duration="1576000" />
+      <workItem from="1652120682512" duration="1810000" />
+      <workItem from="1652122952714" duration="1090000" />
+      <workItem from="1652124071074" duration="411000" />
+      <workItem from="1652197217415" duration="3768000" />
+      <workItem from="1652205527285" duration="7708000" />
+      <workItem from="1652282715666" duration="1715000" />
+      <workItem from="1652298221772" duration="7965000" />
+      <workItem from="1652382178126" duration="5861000" />
+      <workItem from="1652389810481" duration="1217000" />
+      <workItem from="1652509979080" duration="1586000" />
+      <workItem from="1654018054894" duration="98000" />
+      <workItem from="1654531670589" duration="9765000" />
+      <workItem from="1654616421896" duration="2715000" />
+      <workItem from="1655287357973" duration="2000" />
+      <workItem from="1655372805191" duration="11000" />
+      <workItem from="1656134436740" duration="10124000" />
+      <workItem from="1656147642132" duration="1316000" />
+      <workItem from="1656158269951" duration="1205000" />
+      <workItem from="1656706047547" duration="36000" />
+      <workItem from="1656928514156" duration="1761000" />
+      <workItem from="1656948195975" duration="94000" />
+      <workItem from="1657042825196" duration="3126000" />
+      <workItem from="1657175220395" duration="1812000" />
+      <workItem from="1657206786456" duration="2000" />
+      <workItem from="1657315702900" duration="166000" />
+      <workItem from="1657789879366" duration="528000" />
+      <workItem from="1658124353251" duration="3433000" />
+      <workItem from="1658133905705" duration="4721000" />
+      <workItem from="1658168354448" duration="28000" />
+      <workItem from="1658769981836" duration="4000" />
+      <workItem from="1659259002816" duration="1999000" />
+      <workItem from="1659261113312" duration="74000" />
+      <workItem from="1659630791582" duration="7352000" />
+      <workItem from="1659689380757" duration="115000" />
+      <workItem from="1659702937516" duration="5066000" />
+      <workItem from="1659886023506" duration="6168000" />
+      <workItem from="1659939264494" duration="3586000" />
+      <workItem from="1659969502612" duration="4728000" />
+      <workItem from="1659984126507" duration="5672000" />
+      <workItem from="1660023027109" duration="3908000" />
+      <workItem from="1660122940363" duration="8486000" />
+      <workItem from="1660145111412" duration="8093000" />
+      <workItem from="1660201050953" duration="12662000" />
+      <workItem from="1660229260690" duration="3575000" />
+      <workItem from="1660232886559" duration="7851000" />
+      <workItem from="1660244528234" duration="4097000" />
+      <workItem from="1660249113606" duration="317000" />
+      <workItem from="1660249450760" duration="379000" />
+      <workItem from="1660459667390" duration="13014000" />
+      <workItem from="1660473114482" duration="22925000" />
+      <workItem from="1660508909174" duration="906000" />
+      <workItem from="1660509888165" duration="454000" />
+      <workItem from="1660510406263" duration="617000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="14.08" />
+    <option name="LAST_COMMIT_MESSAGE" value="14.08" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLSyntaxErrorException" package="java.sql" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
