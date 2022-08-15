@@ -1375,6 +1375,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <column id="325" parent="300" name="FK_jobCodeTO">
       <Position>6</Position>
       <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
     </column>
     <index id="326" parent="300" name="FK_numTO">
       <ColNames>FK_numTO</ColNames>

@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e50f7fa-f414-433e-a88e-a58606953188" name="Changes" comment="14.08">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/NormalizForTOModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/PartForTOModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/controller/SelectForTOController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/controller/SelectForTOController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/RegulForTOModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/RegulForTOModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/SelectForTORepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/SelectForTORepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/service/SelectForTOService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/service/SelectForTOService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/js/btnSearchShowTO.js" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/js/btnSearchShowTO.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/Запрос к картам.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/Запрос к картам.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/Наполнение таблиц.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/Наполнение таблиц.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/таблицы.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/таблицы.txt" afterDir="false" />
+    <list default="true" id="0e50f7fa-f414-433e-a88e-a58606953188" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/desktop.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/175d7e64-4e79-4ad2-8fa2-a04130072ffd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/175d7e64-4e79-4ad2-8fa2-a04130072ffd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/29642103-08da-42e8-96ea-0c547ae83575.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/29642103-08da-42e8-96ea-0c547ae83575.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +76,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Обучение Кристина/product" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37157106" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -204,12 +198,63 @@
       <workItem from="1660473114482" duration="22925000" />
       <workItem from="1660508909174" duration="906000" />
       <workItem from="1660509888165" duration="454000" />
-      <workItem from="1660510406263" duration="617000" />
+      <workItem from="1660510406263" duration="836000" />
+      <workItem from="1660540912780" duration="6855000" />
+      <workItem from="1660548335635" duration="12490000" />
+      <workItem from="1660561768787" duration="3144000" />
+      <workItem from="1660565727959" duration="1118000" />
+      <workItem from="1660566913741" duration="909000" />
+      <workItem from="1660568056874" duration="768000" />
+      <workItem from="1660569186296" duration="388000" />
     </task>
+    <task id="LOCAL-00001" summary="14.08">
+      <created>1660511062796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660511062796</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="97eace7d-f77a-4983-98be-f557a2ccc894">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/User/Desktop/MyWorkTime/MyWorkTime" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="97eace7d-f77a-4983-98be-f557a2ccc894" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="14.08" />
