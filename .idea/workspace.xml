@@ -5,12 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e50f7fa-f414-433e-a88e-a58606953188" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/desktop.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/controller/ClientCardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/controller/WarehouseCarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/ClientCardModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/WarehouseCarModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/ClientCardAddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/ClientCardPhoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/ClientCardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/WarehouseCarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/service/ClientCardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/service/WarehouseCarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/js/createWarehouseCar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/175d7e64-4e79-4ad2-8fa2-a04130072ffd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/175d7e64-4e79-4ad2-8fa2-a04130072ffd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/29642103-08da-42e8-96ea-0c547ae83575.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/29642103-08da-42e8-96ea-0c547ae83575.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/175d7e64-4e79-4ad2-8fa2-a04130072ffd/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/175d7e64-4e79-4ad2-8fa2-a04130072ffd/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/controller/SelectForTOController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/controller/SelectForTOController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/AutoForTOModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/AutoForTOModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/NormalizForTOModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/NormalizForTOModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/PartForTOModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/PartForTOModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/RegulForTOModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/RegulForTOModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/SelectForTOModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/SelectForTOModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/SelectForTORepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/SelectForTORepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/service/SelectForTOService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/service/SelectForTOService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/Authorization.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/Authorization.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/MyWorkTime.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/MyWorkTime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/css/popupTools.css" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/css/popupTools.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/js/btnSearchShowTO.js" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/js/btnSearchShowTO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/js/createUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/js/createUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/js/showUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/js/showUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/Наполнение таблиц.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/Наполнение таблиц.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/таблицы.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/templates/db/TO_table/таблицы.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/controller/SelectForTOController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/controller/SelectForTOController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/entity/AutoForTOModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/entity/AutoForTOModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/entity/NormalizForTOModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/entity/NormalizForTOModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/entity/PartForTOModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/entity/PartForTOModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/entity/RegulForTOModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/entity/RegulForTOModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/entity/SelectForTOModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/entity/SelectForTOModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/repository/SelectForTORepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/repository/SelectForTORepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/service/SelectForTOService.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/com/home/MyWorkTime/service/SelectForTOService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/static/Authorization.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/static/Authorization.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/static/MyWorkTime.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/static/MyWorkTime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/static/css/popupTools.css" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/static/css/popupTools.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/static/js/btnSearchShowTO.js" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/static/js/btnSearchShowTO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/static/js/showUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/static/js/showUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/templates/db/TO_table/Наполнение таблиц.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/templates/db/TO_table/Наполнение таблиц.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/templates/db/TO_table/таблицы.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/templates/db/TO_table/таблицы.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +64,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MyWorkTime" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="4d0cc332-17ec-4b39-95d6-6fd664d04a63" />
@@ -53,12 +96,15 @@
     <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="28QgcknIpdgJNQ8hIqUEmviLW5t" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -205,7 +251,19 @@
       <workItem from="1660565727959" duration="1118000" />
       <workItem from="1660566913741" duration="909000" />
       <workItem from="1660568056874" duration="768000" />
-      <workItem from="1660569186296" duration="388000" />
+      <workItem from="1660569186296" duration="840000" />
+      <workItem from="1660570220830" duration="84000" />
+      <workItem from="1660627855674" duration="3093000" />
+      <workItem from="1660635813496" duration="5464000" />
+      <workItem from="1660644022253" duration="2558000" />
+      <workItem from="1660666288594" duration="2848000" />
+      <workItem from="1660713942178" duration="2552000" />
+      <workItem from="1660749995321" duration="5910000" />
+      <workItem from="1660799955653" duration="5738000" />
+      <workItem from="1660814606013" duration="2416000" />
+      <workItem from="1660985036123" duration="12181000" />
+      <workItem from="1661034431570" duration="841000" />
+      <workItem from="1661173658931" duration="16423000" />
     </task>
     <task id="LOCAL-00001" summary="14.08">
       <created>1660511062796</created>
@@ -214,7 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660511062796</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="15.08">
+      <created>1660569599222</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660569599222</updated>
+    </task>
+    <task id="LOCAL-00003" summary="15.08">
+      <created>1660569744992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660569744992</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,8 +329,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="14.08" />
-    <option name="LAST_COMMIT_MESSAGE" value="14.08" />
+    <MESSAGE value="15.08" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.08" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1247,212 +1247,378 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Host>localhost</Host>
     </user>
     <table id="296" parent="3" name="auto"/>
-    <table id="297" parent="3" name="normalization"/>
-    <table id="298" parent="3" name="part"/>
-    <table id="299" parent="3" name="regulations"/>
-    <table id="300" parent="3" name="to_regulations"/>
-    <table id="301" parent="3" name="users"/>
-    <column id="302" parent="296" name="id">
+    <table id="297" parent="3" name="automobile_card"/>
+    <table id="298" parent="3" name="car_owner"/>
+    <table id="299" parent="3" name="clients_card"/>
+    <table id="300" parent="3" name="normalization"/>
+    <table id="301" parent="3" name="part"/>
+    <table id="302" parent="3" name="regulations"/>
+    <table id="303" parent="3" name="to_regulations"/>
+    <table id="304" parent="3" name="users"/>
+    <table id="305" parent="3" name="warehouse_car"/>
+    <column id="306" parent="296" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="303" parent="296" name="automobile">
+    <column id="307" parent="296" name="automobile">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="304" parent="296" name="modification">
+    <column id="308" parent="296" name="modification">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="305" parent="296" name="PRIMARY">
+    <key id="309" parent="296" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="306" parent="297" name="id">
+    <column id="310" parent="297" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="307" parent="297" name="jobCode">
+    <column id="311" parent="297" name="vin">
       <Position>2</Position>
+      <DataType>varchar(17)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="312" parent="297" name="alter_vin">
+      <Position>3</Position>
+      <DataType>varchar(17)|0s</DataType>
+    </column>
+    <column id="313" parent="297" name="reg_num">
+      <Position>4</Position>
+      <DataType>varchar(10)|0s</DataType>
+    </column>
+    <column id="314" parent="297" name="date_release">
+      <Position>5</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="315" parent="297" name="date_sale">
+      <Position>6</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <key id="316" parent="297" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="317" parent="298" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="318" parent="298" name="FK_owner">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="319" parent="298" name="FK_vin">
+      <Position>3</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="308" parent="297" name="jobName">
+    <column id="320" parent="298" name="FK_automobile">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="321" parent="298" name="FK_owner">
+      <ColNames>FK_owner</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="322" parent="298" name="FK_vin">
+      <ColNames>FK_vin</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="323" parent="298" name="FK_automobile">
+      <ColNames>FK_automobile</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="324" parent="298" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="325" parent="298" name="car_owner_ibfk_1">
+      <ColNames>FK_owner</ColNames>
+      <RefTableName>clients_card</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="326" parent="298" name="car_owner_ibfk_2">
+      <ColNames>FK_vin</ColNames>
+      <RefTableName>automobile_card</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="327" parent="298" name="car_owner_ibfk_3">
+      <ColNames>FK_automobile</ColNames>
+      <RefTableName>auto</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="328" parent="299" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="329" parent="299" name="client_full_name">
+      <Position>2</Position>
+      <DataType>varchar(75)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="330" parent="299" name="city">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="309" parent="297" name="jobTime">
+    <column id="331" parent="299" name="address">
+      <Position>4</Position>
+      <DataType>varchar(150)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="332" parent="299" name="phone">
+      <Position>5</Position>
+      <DataType>mediumtext|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="333" parent="299" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="334" parent="300" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="335" parent="300" name="jobCode">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="336" parent="300" name="jobName">
+      <Position>3</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="337" parent="300" name="jobTime">
       <Position>4</Position>
       <DataType>double|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="310" parent="297" name="priceTime">
+    <column id="338" parent="300" name="priceTime">
       <Position>5</Position>
       <DataType>double|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="311" parent="297" name="PRIMARY">
+    <key id="339" parent="300" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="312" parent="298" name="id">
+    <column id="340" parent="301" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="313" parent="298" name="partNumber">
+    <column id="341" parent="301" name="partNumber">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="314" parent="298" name="partName">
+    <column id="342" parent="301" name="partName">
       <Position>3</Position>
       <DataType>varchar(150)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="315" parent="298" name="partPrice">
+    <column id="343" parent="301" name="partPrice">
       <Position>4</Position>
       <DataType>double|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="316" parent="298" name="PRIMARY">
+    <key id="344" parent="301" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="317" parent="299" name="id">
+    <column id="345" parent="302" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="318" parent="299" name="number_TO">
+    <column id="346" parent="302" name="number_TO">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="319" parent="299" name="PRIMARY">
+    <key id="347" parent="302" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="320" parent="300" name="id">
+    <column id="348" parent="303" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="321" parent="300" name="FK_numTO">
+    <column id="349" parent="303" name="FK_numTO">
       <Position>2</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="322" parent="300" name="FK_autoTO">
+    <column id="350" parent="303" name="FK_autoTO">
       <Position>3</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="323" parent="300" name="FK_partNumberTO">
+    <column id="351" parent="303" name="FK_part_numberTO">
       <Position>4</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="324" parent="300" name="amount">
+    <column id="352" parent="303" name="amount">
       <Position>5</Position>
       <DataType>double|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="325" parent="300" name="FK_jobCodeTO">
+    <column id="353" parent="303" name="FK_job_codeTO">
       <Position>6</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="326" parent="300" name="FK_numTO">
+    <index id="354" parent="303" name="FK_numTO">
       <ColNames>FK_numTO</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="327" parent="300" name="FK_autoTO">
+    <index id="355" parent="303" name="FK_autoTO">
       <ColNames>FK_autoTO</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="328" parent="300" name="FK_partNumberTO">
-      <ColNames>FK_partNumberTO</ColNames>
+    <index id="356" parent="303" name="FK_part_numberTO">
+      <ColNames>FK_part_numberTO</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="329" parent="300" name="FK_jobCodeTO">
-      <ColNames>FK_jobCodeTO</ColNames>
+    <index id="357" parent="303" name="FK_job_codeTO">
+      <ColNames>FK_job_codeTO</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="330" parent="300" name="PRIMARY">
+    <key id="358" parent="303" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="331" parent="300" name="to_regulations_ibfk_1">
+    <foreign-key id="359" parent="303" name="to_regulations_ibfk_1">
       <ColNames>FK_numTO</ColNames>
       <RefTableName>regulations</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="332" parent="300" name="to_regulations_ibfk_2">
+    <foreign-key id="360" parent="303" name="to_regulations_ibfk_2">
       <ColNames>FK_autoTO</ColNames>
       <RefTableName>auto</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="333" parent="300" name="to_regulations_ibfk_3">
-      <ColNames>FK_partNumberTO</ColNames>
+    <foreign-key id="361" parent="303" name="to_regulations_ibfk_3">
+      <ColNames>FK_part_numberTO</ColNames>
       <RefTableName>part</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="334" parent="300" name="to_regulations_ibfk_4">
-      <ColNames>FK_jobCodeTO</ColNames>
+    <foreign-key id="362" parent="303" name="to_regulations_ibfk_4">
+      <ColNames>FK_job_codeTO</ColNames>
       <RefTableName>normalization</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="335" parent="301" name="id">
+    <column id="363" parent="304" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="336" parent="301" name="name">
+    <column id="364" parent="304" name="name">
       <Position>2</Position>
       <DataType>varchar(15)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="337" parent="301" name="surname">
+    <column id="365" parent="304" name="surname">
       <Position>3</Position>
       <DataType>varchar(15)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="338" parent="301" name="login">
+    <column id="366" parent="304" name="login">
       <Position>4</Position>
       <DataType>varchar(15)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="339" parent="301" name="password">
+    <column id="367" parent="304" name="password">
       <Position>5</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="340" parent="301" name="level_access">
+    <column id="368" parent="304" name="level_access">
       <Position>6</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="341" parent="301" name="PRIMARY">
+    <key id="369" parent="304" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
+    </key>
+    <column id="370" parent="305" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="371" parent="305" name="vin">
+      <Position>2</Position>
+      <DataType>varchar(17)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="372" parent="305" name="alter_vin">
+      <Position>3</Position>
+      <DataType>varchar(17)|0s</DataType>
+    </column>
+    <column id="373" parent="305" name="date_arrival">
+      <Position>4</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="374" parent="305" name="date_release">
+      <Position>5</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="375" parent="305" name="date_sale">
+      <Position>6</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="376" parent="305" name="create_date_position">
+      <Position>7</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="377" parent="305" name="vin">
+      <ColNames>vin</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="378" parent="305" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="379" parent="305" name="vin">
+      <ColNames>vin</ColNames>
+      <UnderlyingIndexName>vin</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>
