@@ -1606,17 +1606,45 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="377" parent="305" name="vin">
+    <column id="377" parent="305" name="insp_deliv">
+      <Position>8</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="378" parent="305" name="pdi">
+      <Position>9</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="379" parent="305" name="insp_proof">
+      <Position>10</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="380" parent="305" name="insp_30day">
+      <Position>11</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="381" parent="305" name="insp_60day">
+      <Position>12</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="382" parent="305" name="insp_90day">
+      <Position>13</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="383" parent="305" name="insp_120day">
+      <Position>14</Position>
+      <DataType>date|0s</DataType>
+    </column>
+    <index id="384" parent="305" name="vin">
       <ColNames>vin</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="378" parent="305" name="PRIMARY">
+    <key id="385" parent="305" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="379" parent="305" name="vin">
+    <key id="386" parent="305" name="vin">
       <ColNames>vin</ColNames>
       <UnderlyingIndexName>vin</UnderlyingIndexName>
     </key>
