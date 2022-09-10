@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/ClientCardPhoneRepository.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/SelectForTORepository.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/WarehouseCarRepository.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/WarehouseCarVinRepository.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/service/SelectForTOService.java" dialect="GenericSQL" />
   </component>
 </project>
