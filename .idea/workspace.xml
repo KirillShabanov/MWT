@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e50f7fa-f414-433e-a88e-a58606953188" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/repository/WarehouseCarVinRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/css/formForSearchCheckedCar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/controller/WarehouseCarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/controller/WarehouseCarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/WarehouseCarModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/entity/WarehouseCarModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/service/WarehouseCarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/java/com/home/MyWorkTime/service/WarehouseCarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/MyWorkTime.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/MyWorkTime.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/js/showWarehouseCar.js" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/src/main/resources/static/js/showWarehouseCar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyWorkTime/target/classes/static/MyWorkTime.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyWorkTime/target/classes/static/MyWorkTime.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +80,10 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37157106" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -241,7 +235,7 @@
       <workItem from="1661963964736" duration="1620000" />
       <workItem from="1662534646958" duration="13535000" />
       <workItem from="1662626420450" duration="7962000" />
-      <workItem from="1662825798003" duration="7494000" />
+      <workItem from="1662825798003" duration="7936000" />
     </task>
     <task id="LOCAL-00001" summary="14.08">
       <created>1660511062796</created>
@@ -278,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662636194769</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="08.09">
+      <created>1662838983522</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662838983522</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
